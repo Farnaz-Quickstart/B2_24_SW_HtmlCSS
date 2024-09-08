@@ -1,0 +1,10 @@
+00:44:03	Zsolt:	https://qstart-my.sharepoint.com/:f:/g/personal/zsolt_nagy_quickstart_com/EsO-8buu4LtBnwWf84cpzjgBnS0cSfQzRlVKAVLO-mC2nQ?e=Q5g1eg
+00:58:53	Andrew Williams:	solid 8
+00:59:13	sonja carrizosa:	5
+00:59:14	Nick Ibarra:	9
+00:59:22	HashemZidan:	8, the only thing is how do you remember all the commands lol
+01:01:46	Zsolt:	https://mastery.games/post/flexboxzombies2/
+01:02:44	HashemZidan:	is a flex box command all the commands or is it for a specific area
+01:04:42	Zsolt:	https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+01:09:28	Zsolt:	https://htmlcheatsheet.com/css/
+01:10:57	sonja carrizosa:	That’s a nice cheat sheet, with demos

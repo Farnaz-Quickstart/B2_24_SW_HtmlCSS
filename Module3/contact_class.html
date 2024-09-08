@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Page</title>
+</head>
+
+<body>
+  <h1>Contact Page</h1>  
+  <form action="index.html" method="get" >
+
+    <div>
+      <div>
+        <label for="firstname">FirstName: </label>
+        <input type="text" name="firstname" id="firstname" placeholder="First Name" required value="farnaz">
+      </div>
+
+      <div>
+        <label for="lastname">LastName:</label>
+        <input type="text" name="lastname" id="lastname" placeholder="Last Name" required value="towhidi">
+      </div>
+
+      <div>
+        <label for="email">email:</label>
+        <input type="email" name="email" id="email" placeholder="yourmail@abc.com" required value="farnaz@gmail.com">
+      </div>
+
+      <div>
+        <label for="phone">tel:</label>
+        <input type="text" name="phone" id="phone" placeholder="99-99-999-9999" >
+      </div>
+
+      <div>
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" rows="10" cols="50">This is a test</textarea>
+      </div>
+
+      <div>
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+          <option value="female">female</option>
+          <option value="male">male</option>
+          <option value="other">other</option>
+        </select>
+      </div>
+
+      <div>
+        <fieldset>
+          <legend>Topic Quickstart</legend>
+          <label for="topic">html</label>
+          <input type="radio" name="topic" id="" value="html">
+  
+          <label for="topic">CSS</label>
+          <input type="radio" name="topic" id="" value="CSS">
+  
+          <label for="topic">Javascript</label>
+          <input type="radio" name="topic" id="" value="javascript"> <br>
+  
+          <label for="">Sample</label>
+          <input type="text" name="sample" id="sample">
+        </fieldset>
+      </div>
+      
+      <div>
+        <fieldset>
+          <legend>Request</legend>
+
+          <label for="advice">Advice</label>
+          <input type="checkbox" name="advice" id="advice" value="advice" checked>
+
+          <label for="information">Information</label>
+          <input type="checkbox" name="information" id="information" value="information">
+
+          <label for="motivation">Motivation</label>
+          <input type="checkbox" name="motivation" id="motivation" value="motivation">
+        </fieldset>
+      </div>
+
+      <div>
+        <input type="range" name="urgent" id="urgent" min="0" max="10" value="2">
+      </div>
+
+      <input type="submit" value="Submit">
+
+   
+    </div>
+  </form>
+</body>
+</html>

@@ -1,0 +1,111 @@
+/* Element Selectors */
+* {
+  padding:0;
+  margin: 0
+}
+
+body {
+  background-color: azure;
+}
+
+p {
+  font-size: 20px;
+  color:black;
+  text-align:left;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+  display:inline-block;
+   width: 50%;   
+}
+
+h4 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color:green
+}
+
+img {
+  padding: 20px 0 20px 0;
+  margin: 0 20px 0 0;
+}
+
+ul, ol {
+  padding:20px;
+}
+
+ul>li {
+  list-style-type: square;
+}
+
+/* class selector */
+.gloria-hallelujah-regular {
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.highlighter {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+}
+
+.multiColumn {
+  display:flex;
+  gap:20px
+}
+
+.bgImage {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; 
+}
+
+.multiColumn-items {
+  border:1px solid gray;
+  padding:10px
+}
+
+.nav-bar {
+  display: flex;
+  gap:15px;
+  background-color: #f3f4f7;
+}
+
+.navbar_items {
+  text-decoration: none;
+  color:#5e5f63
+}
+
+.nav-bar>li {
+  list-style-type: none;
+}
+
+.dark {
+  background-color: #5e5f63;
+}
+
+/* ID selectors */
+#paragraph1 {
+  font-size: 18px;
+  background-color: rgb(12, 12, 224);
+  color:aliceblue
+}
+
+/* Input Selectors */
+input[type="text"], input[type="email"] {
+  font-size: 16px;
+  padding: 5px;
+  background-color: gray;
+}
