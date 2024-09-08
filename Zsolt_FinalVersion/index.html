@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My first HTML project</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+
+        <header>
+            <nav class="header-nav">
+                <a href="#" class="logo">Miriam C. Oshee</a>
+                <ul class="header-nav-menu">
+                    <li class="header-menu-item"><a href="#">Home</a></li>
+                    <li class="header-menu-item"><a href="#skills">Skills</a></li>
+                    <li class="header-menu-item"><a href="#projects">Projects</a></li>
+                    <li class="header-menu-item"><a href="#testimonials">Testimonials</a></li>
+                    <li class="header-menu-item"><a href="./blog.html">Blog</a></li>
+                    <li class="header-menu-item"><a href="./contact.html">Contact</a></li>
+                </ul>
+                
+            </nav>
+        </header>
+        
+        <div class="bg-light">
+            <div class="shield">
+                <h1>Miriam C. Oshee</h1>
+                <section>
+                    <p class="introduction">
+                        Hi, I'm <strong>Miriam C. Oshee</strong> front-end web 
+                        developer and UX designer <em>form Sweden</em>.
+                    </p>    
+                    <img 
+                        src="./images/profile.jpg" 
+                        class="profile-image"
+                        alt="Miriam C. Oshee profile picture." /> 
+                </section>
+            </div>
+        </div>
+        <section class="profile bg-dark">
+            <h2>My Profile</h2>
+            <p class="profile-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, modi. Veniam
+            Mietschuldenfreiheitsbescheinigungsgesetzänderung doloremque autem voluptate officiis cum nesciunt iste facere, cumque laudantium eligendi illo repellendus aspernatur ab deleniti quam, mollitia libero laboriosam adipisci quia ad accusamus. Quis laborum nesciunt ab similique.</p>
+        </section>
+        
+        <section id="skills" class="bg-light">
+            <div class="shield">
+                <h2>My Skills</h2>
+                <div class="multi-column-container">
+                    <section class="three-column-item">
+                        <h3>Frontend</h3>
+                        <img src="https://img.icons8.com/clouds/100/000000/web.png"/>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing.
+                        </p>
+                    </section>
+                    <section class="three-column-item">
+                        <h3>Backend</h3>
+                        <img src="https://img.icons8.com/clouds/100/000000/server.png"/>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing.
+                        </p>
+                    </section>
+                    <section class="three-column-item">
+                        <h3>UX / UI</h3>
+                        <img src="https://img.icons8.com/clouds/100/000000/design.png"/>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing.
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="bg-dark">
+            <h2>My Recent Work</h2>
+            <div class="multi-column-container">
+                <section class="three-column-item">
+                    <img src="./images/work.jpg" alt="Project 1" class="img-thumbnail">
+                    <h3>Project 1</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                </section>
+                <section class="three-column-item">
+                    <img src="./images/work.jpg" alt="Project 2" class="img-thumbnail">
+                    <h3>Project 2</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                </section>
+                <section class="three-column-item">
+                    <img src="./images/work.jpg" alt="Project 3" class="img-thumbnail">
+                    <h3>Project 3</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                </section>                
+            </div>
+        </section>
+
+        <section id="testimonials" class="bg-light">
+            <div class="shield">
+                <h2>Testimonials</h2>
+                <div class="multi-column-container">
+                    <section class="three-column-item">
+                        <img src="./images/work.jpg" alt="Testimonial 1" class="img-thumbnail">
+                        <h3>Testimonial 1</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing.
+                        </p>
+                    </section>
+                    <section class="three-column-item">
+                        <img src="./images/work.jpg" alt="Testimonial 2" class="img-thumbnail">
+                        <h3>Testimonial 2</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing.
+                        </p>
+                    </section>
+                    <section class="three-column-item">
+                        <img src="./images/work.jpg" alt="Testimonial 3" class="img-thumbnail">
+                        <h3>Testimonial 3</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing.
+                        </p>
+                    </section>                
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-dark">
+            <h2>Contact</h2>
+            <form action="#" method="GET">
+                <section class="form-row">
+                    <input 
+                        type="text" 
+                        name="name" 
+                        id="name" 
+                        placeholder="Your first name">
+                </section>
+                <section class="form-row">
+                    <input 
+                        type="email" 
+                        name="email" 
+                        id="email" 
+                        placeholder="Your email">
+                </section>
+                <section class="form-row">
+                    <textarea name="message" id="message" cols="30" rows="10">Dear Miriam,
+                    </textarea>
+                </section>
+                <section class="form-row">
+                    <input type="submit" value="Send" />
+                </section>
+            </form>           
+        </section>
+
+        <footer class="bg-dark">
+            Copyright &copy; 2022 Miriam C. Oshee
+        </footer>
+      
+    </body>
+</html>
+
+

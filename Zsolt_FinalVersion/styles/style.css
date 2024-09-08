@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border-style: solid; */
+}
+
+html {
+    font-size: 25px; 
+}
+
+body {
+    color: darkgreen;
+    font-family: 'Antic Slab', serif;
+    display: flex;
+    flex-direction: column; 
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+ul, ol {
+    padding-left: 25px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+p {
+    padding: 0.4rem; 
+}
+
+header {
+    background-color: white;
+}
+
+.bg-dark {
+    color: white;
+    background-color: darkgreen;
+    padding: 0 50px;
+}
+
+.bg-light {
+    color: darkgreen;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; 
+    margin: 0;
+}
+
+.shield {
+    margin: 0 50px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 25px;
+}
+
+.logo {
+    color: black;
+    text-decoration: none;
+    font-size: 1.25rem; 
+    font-weight: bold;
+    margin: 1rem 0 1rem 1rem;
+}
+
+.header-nav-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-menu-item {
+    margin-right: 1.5rem;
+}
+
+.header-menu-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.introduction {
+    text-align: center;
+    color: rgb(30, 30, 30);
+}
+
+.profile-image {
+    width: 230px;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 0 50% 0 50%;
+}
+
+.multi-column-container {
+    display: flex;
+}
+
+.three-column-item {
+    width: calc(100% / 3 - 10px);
+    margin: 50px 5px;
+    border: 5px solid darkgreen;
+    border-radius: 15px;
+    background-color: rgb(246, 255, 246);
+    text-align: center;
+    color: darkgreen;
+}
+
+.three-column-item h3 {
+    margin: 40px auto;
+}
+
+.three-column-item .img-thumbnail {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: center;
+}
+
+input, textarea {
+    width: 50%;
+    margin: 10px auto;
+    padding: 12px 20px;
+}
+
+[type=submit] {
+    background-color: #003d02;
+    color: white;
+    border: none;
+    box-shadow: 3px 3px 8px rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    box-sizing: content-box;
+    font-size: 1rem;
+}
+
+[type=submit]:hover {
+    background-color: green;
+    box-shadow: 3px 3px 8px rgba(255, 255, 255, 0.7);
+}
+
+
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
