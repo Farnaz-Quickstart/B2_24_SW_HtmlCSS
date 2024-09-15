@@ -1,0 +1,14 @@
+body {
+  background-color: gray;
+}
+
+div {
+  background-color: aliceblue;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: lightblue;
+  border: 2px solid darkblue;
+}

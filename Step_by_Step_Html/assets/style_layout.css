@@ -1,0 +1,46 @@
+.picStyle {
+  width:200px
+}
+
+.table {
+  border:1px solid gray
+}
+
+section {
+  background-color: bisque;
+  margin:2px
+}
+
+.grid_container {
+  display:flex;
+  flex-direction: row;
+}
+
+.gridItems {
+  flex:1
+}
+
+
+.galleryContainer {
+  display:flex;
+  flex-direction: row;
+}
+
+.galleryItems {
+  /* flex:1 1 200px; */
+  flex: 1 1 calc(25% - 20px);
+  max-width:calc(25% - 20px)
+}
+
+.galleryImageContainer {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:10px;
+  width:70%;
+  margin:auto;
+}
+
+.galleryItems >img {
+  width:100%
+}

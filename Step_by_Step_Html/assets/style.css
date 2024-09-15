@@ -1,0 +1,19 @@
+body {
+  display:flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: row; 
+}
+
+aside {
+  flex:1;
+  border:1px solid red
+}
+
+.rigthContainer {
+  flex:3;
+  border:1px solid green;
+}

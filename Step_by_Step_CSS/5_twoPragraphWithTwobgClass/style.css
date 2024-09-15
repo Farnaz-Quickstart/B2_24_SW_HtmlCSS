@@ -1,0 +1,24 @@
+body {
+  background-color: rgb(198, 198, 198);
+}
+
+main {
+  background-color: burlywood;
+}
+
+p {
+  background-color: blue;
+  color:aliceblue
+}
+
+h1 {
+  color:black
+}
+
+.GreenBgColor {
+  background-color: green;
+}
+
+.RedBgColor {
+  background-color: red;
+}

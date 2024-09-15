@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(198, 198, 198);
+}
+
+main {
+  background-color: burlywood;
+}
+
+p {
+  background-color: blue;
+  color:aliceblue
+}
+
+h1 {
+  color:black
+}
+
+.GreenBgColor {
+  background-color: green;
+}
+
+.RedBgColor {
+  background-color: red;
+}
+
+/* .TextStyle {
+text-decoration: line-through;
+}
+
+.class3 {
+  font-size: xx-large;
+}
+
+.class4 {
+  font-family: Arial, Helvetica, sans-serif 
+}
+
+.class5 {
+  font-style: italic;
+} */
+
+.TextClass {
+  font-family: Arial, Helvetica, sans-serif ;
+  text-decoration: line-through;
+  font-size: xx-large;
+  font-style: italic;
+}
