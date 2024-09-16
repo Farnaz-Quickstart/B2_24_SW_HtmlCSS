@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(198, 198, 198);
+}
+
+main {
+  background-color: burlywood;
+}
+
+p {
+  background-color: blue;
+  color:aliceblue
+}
+
+h1 {
+  color:black
+}
+
+ul {
+  display:flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.menu {
+  background-color: darkgrey;
+}
+
+.menu > ul > li > a{ 
+  color:white;
+  text-decoration: none;
+}
